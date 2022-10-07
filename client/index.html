@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>f28 capstone Chorelist</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="chore-header">Chore Roster</h1>
+      <section id="input-area">
+        <section id="chorelist-section">
+          <button id="getchoresbtn" type="button">Get Chore List</button>
+          <ul id="chorelist"></ul>
+        </section>
+        <section id="add-section">
+          <button id="add2chorelist" type="button">Add to Chore List</button>
+          <div>
+            <input
+              id="chorename"
+              type="text"
+              placeholder="type chore here"
+              required
+            />
+          </div>
+        </section>
+        <section id="delete-section">
+          <button id="delete-chore-btn" type="button">
+            Delete From Chore List
+          </button>
+          <div>
+            <input
+              id="deleteinput"
+              type="text"
+              placeholder="type chore here"
+              required
+            />
+          </div>
+        </section>
+      </section>
+      <section id="get-response-area"></section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+  </body>
+</html>

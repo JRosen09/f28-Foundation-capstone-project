@@ -1,0 +1,110 @@
+body {
+  animation: changeBg 20s infinite alternate linear;
+}
+@keyframes changeBg {
+  0% {
+    background: #8e4dff;
+  }
+  25% {
+    background: #ff8c4a;
+  }
+  50% {
+    background: #acff82;
+  }
+  75% {
+    background: #fa52d3;
+  }
+  100% {
+    background: #00f6fe;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.chore-header {
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  margin: 10px;
+  padding: 25px;
+  border: rgb(67, 2, 94) solid;
+  -webkit-box-shadow: 1px 5px 14px 3px #000000;
+  box-shadow: 1px 5px 14px 3px #000000;
+  border-radius: 15px;
+}
+
+#input-area {
+  display: flex;
+
+  justify-content: space-around;
+  background-color: white;
+  margin: 15px;
+  border-radius: 15px;
+}
+#get-response-area {
+  box-sizing: border-box;
+}
+#chorelist-section {
+  align-items: center;
+}
+#getchoresbtn {
+  margin: 10px;
+  font-size: medium;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  background-color: rgb(0, 0, 0);
+  border: rgb(64, 64, 64) solid;
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+  -webkit-box-shadow: 1px 5px 14px 3px #000000;
+  box-shadow: 1px 5px 14px 3px #000000;
+}
+#add-section {
+  text-align: center;
+  align-items: center;
+}
+#add2chorelist {
+  font-size: medium;
+  margin: 10px;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  background-color: rgb(0, 0, 0);
+  border: rgb(64, 64, 64) solid;
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+  -webkit-box-shadow: 1px 5px 14px 3px #000000;
+  box-shadow: 1px 5px 14px 3px #000000;
+}
+#chorename {
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+#delete-chore-btn {
+  margin: 10px;
+  font-size: medium;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  background-color: rgb(0, 0, 0);
+  border: rgb(64, 64, 64) solid;
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+  -webkit-box-shadow: 1px 5px 14px 3px #000000;
+  box-shadow: 1px 5px 14px 3px #000000;
+}
+#deleteinput {
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+#delete-section {
+  text-align: center;
+}
